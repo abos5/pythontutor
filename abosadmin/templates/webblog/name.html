@@ -1,0 +1,9 @@
+{% extends "webblog/base.html" %}
+{% block container %}
+<!-- <form action="{% url 'webblog:index' %}" method='post' > -->
+<form action="/webblog/" method="post">
+    {% csrf_token %}
+    {{form}}
+    <input type='submit' value = "Sumit" />
+</form>
+{% endblock %}

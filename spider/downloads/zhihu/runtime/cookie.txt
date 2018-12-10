@@ -1,0 +1,8 @@
+# Netscape HTTP Cookie File
+# http://www.netscape.com/newsref/std/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.zhihu.com	TRUE	/	FALSE		q_c0	"MWM1Y2E4MmVlMTViMTI2NWUyOTRiZGI0NTE3NGNiOGV8YTNadEd6d0JOTTJjUDk2ZA==|1419781671|28a69e11f44ed67a2d4c810a1cae56ea670b7d6b"
+.zhihu.com	TRUE	/	FALSE		q_c1	f4d55dcc4af340958226153e1aedeb9b|1419781666000|1419781666000
+www.zhihu.com	FALSE	/	FALSE		_xsrf	c28ec8ec128d530065bf16d5f4430cc8
+www.zhihu.com	FALSE	/	FALSE		c_c	de6aaa128ea811e489645254291c3363

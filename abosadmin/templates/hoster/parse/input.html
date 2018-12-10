@@ -1,0 +1,15 @@
+{% extends "hoster/base_site.html" %}
+
+{% block content %}
+{% spaceless %}
+<form method='post' action="{%url 'hoster:parse-input' %}">
+{{ form.text.label_tag }}
+{{ form.text }}
+{{ view.request.GET }}
+{% csrf_token %}
+<button>Submit</button>
+{% widthratio 10 20 30 %}
+</form>
+{% endspaceless %}
+{% endblock %}
+{% block nav-global %}{% endblock %}
